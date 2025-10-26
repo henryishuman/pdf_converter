@@ -1,6 +1,6 @@
 from typing import List
 
-from src.pdf_converter import PDFConverter
+from pdf_converter import PDFConverter
 from sys import argv
 from os.path import splitext
 
