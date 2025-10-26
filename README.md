@@ -34,6 +34,9 @@ You can also run the program by supplying argument tags, for example:
 
 In this format, you must supply an `-in` argument. The `-out` argument will default to the same file name as the PDF, but as a PNG image. The `-ext` command allows the user to change this default behaviour. An `-ext` argument will be ignored if the `-out` file name includes an extension.
 
+### Running unit tests
+The unit tests have been configured using `pytest`. Running the `pytest` command in the project root should pick up and execute these tests. This project was built using pycharm, and the `src` and `test` directories should be marked as `source` and `test` directories respectively.
+
 ## Supported image types
 This program supports conversion to multiple non-sequence 
 image types.
