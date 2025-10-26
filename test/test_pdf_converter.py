@@ -1,7 +1,7 @@
 from os import path, mkdir
 from shutil import rmtree
 
-from pdf_converter import PDFConverter
+from src.pdf_converter import PDFConverter
 from pytest import raises, fixture, mark
 
 class TestPDFConverter:
